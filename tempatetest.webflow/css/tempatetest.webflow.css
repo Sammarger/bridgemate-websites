@@ -119,6 +119,7 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-radius: .5rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary: #51e4f8;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-font: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---font--button-font);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse: #262b2f;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-font-size: 1rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-primary-border-hover: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary-hover: #8cedfa;
@@ -144,7 +145,6 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-border-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-bg-hover: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-text-placeholder: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-primary-a20);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse: #262b2c;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a30: #51e4f84d;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a80: #262b2ccc;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1x: 1rem;
@@ -812,7 +812,7 @@
   background-color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary);
   box-shadow: none;
   font-family: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-font);
-  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-primary);
+  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   font-size: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-font-size);
   text-align: center;
   cursor: pointer;
@@ -4780,6 +4780,7 @@
 }
 
 .button-label {
+  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   white-space: pre;
 }
 
