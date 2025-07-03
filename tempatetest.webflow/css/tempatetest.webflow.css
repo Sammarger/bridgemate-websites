@@ -5,17 +5,17 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---container--container-sm-width: 1000px;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---section--section-padding-vertical: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--8x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-primary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---section--section-padding-vertical-tablet: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--7x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---section--section-padding-vertical-mobile-l: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--6x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---section--section-padding-vertical-mobile-p: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--5x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-secondary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-accent-primary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-primary: #262b2c;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-primary: #262b2d;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-inverse: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-primary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-accent-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-secondary: #024f29;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-secondary: #262b2e;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-accent-tertiary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-tertiary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-tertiary: #262b2c;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1-25x: 1.25rem;
@@ -163,6 +163,7 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-xxl--xxl-text-size-tablet: 1.8rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-xxl--xxl-text-size-mobile-l: 1.6rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-xxl--xxl-text-size-mobile-p: 1.4rem;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--0-25x: .25rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--3x: 3rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text--text-size: 1rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text--text-line-height: 1.6em;
@@ -193,7 +194,6 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary: #262b2c;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---size-grid-gap--s\<deleted\|variable-7f9b61b2-8719-91a0-b7be-ed0569c7f155\>: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--2x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a10: #262b2c1a;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--0-25x: .25rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a40: #51e4f866;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a10: #51e4f81a;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-padding-horizontal: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--0-5x);
@@ -3311,6 +3311,7 @@
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+  margin-top: 4rem;
   position: relative;
 }
 
@@ -5206,6 +5207,7 @@
 .nav-center {
   padding-right: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---gap--sm-gap);
   padding-left: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---gap--sm-gap);
+  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-secondary);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -5491,6 +5493,10 @@ strong {
 
 .text-block {
   color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a70);
+}
+
+.text-block.phone-number {
+  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-secondary);
 }
 
 .grid {
@@ -5800,6 +5806,10 @@ strong {
   flex: 1;
   align-self: center;
   padding-left: 10px;
+}
+
+.text-block-5.name {
+  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-accent-secondary);
 }
 
 .contact {
@@ -6814,6 +6824,12 @@ strong {
     justify-content: flex-start;
     align-items: stretch;
     width: 100%;
+  }
+
+  .button-group.button-mobile {
+    margin-top: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--0-25x);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .card-body {
