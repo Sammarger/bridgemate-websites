@@ -117,9 +117,8 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-padding-horizontal: 1.5em;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-primary-border: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-radius: .5rem;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary: #2AB8B9;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary: #00A4A5;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-font: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---font--button-font);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse: #000000;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-font-size: 1rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-primary-border-hover: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary-hover: #8cedfa;
@@ -145,7 +144,8 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-border-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-bg-hover: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---input--input-inverse-text-placeholder: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-primary-a20);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a30: #2AB8B94d;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse: #262b2f;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a30: #00A4A54d;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a80: #262b2ccc;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1x: 1rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--2x: 2rem;
@@ -189,20 +189,19 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding-tablet: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--2x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding-mobile-l: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1-5x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding-mobile-p: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1-5x);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary: #93CCC5;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary: #7FC8C9;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-inverse-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse-hover);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary: #262b2c;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---size-grid-gap--s\<deleted\|variable-7f9b61b2-8719-91a0-b7be-ed0569c7f155\>: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--2x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a10: #262b2c1a;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a40: #2AB8B966;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a10: #2AB8B91a;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a40: #00A4A566;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a10: #00A4A51a;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-padding-horizontal: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--0-5x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-radius: .5rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-size: .75rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-primary-bg: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse: #2AB8B9;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-overlay: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary-hover: #93CCC5;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse: #00A4A5;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary-hover: #7FC8C9;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-primary-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary-hover);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-primary-text: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary);
@@ -217,16 +216,16 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text--text-size-mobile-l: 1rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-secondary-bg-hover: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---nav-link--nav-link-inverse: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a20: #2AB8B933;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a20: #00A4A533;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a20: #b8fa7633;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a10: #b8fa761a;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a60);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-primary-bg: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a90: #2AB8B9e6;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a80: #2AB8B9cc;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a70: #2AB8B9b3;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a60: #2AB8B999;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a50: #2AB8B980;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a90: #00A4A5e6;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a80: #00A4A5cc;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a70: #00A4A5b3;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a60: #00A4A599;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a50: #00A4A580;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a90: #b8fa76e6;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a80: #b8fa76cc;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a70: #b8fa76b3;
@@ -270,9 +269,10 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-on-overlay: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-line-height: 1.6rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-letter-spacing: 0em;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-overlay: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-primary-a60);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary-hover: #262b2c99;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse-hover: #2AB8B999;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse-hover: #00A4A599;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---font--button-font: Manrope, sans-serif;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-font: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---font--body-font);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---blockquote--blockquote-bg: transparent;
@@ -812,7 +812,7 @@
   background-color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary);
   box-shadow: none;
   font-family: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-font);
-  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
+  color: #FFFFFF;
   font-size: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---base-typography--base-font-size);
   text-align: center;
   cursor: pointer;
@@ -2425,7 +2425,7 @@
 }
 
 .overlay {
-  background-color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-overlay);
+  background-color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   opacity: .6;
   position: absolute;
   inset: 0%;
@@ -4780,7 +4780,6 @@
 }
 
 .button-label {
-  color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-neutral-color--neutral-inverse);
   white-space: pre;
 }
 
@@ -5557,7 +5556,7 @@ strong {
 
 .submit-button {
   color: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-inverse);
-  background-color: #2AB8B9;
+  background-color: #00A4A5;
   border-radius: 10px;
   box-shadow: 0 2px 5px #0003;
 }
