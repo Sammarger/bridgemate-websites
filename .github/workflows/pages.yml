@@ -4,24 +4,25 @@ on:
   push:
     branches:
       - main
-      - temp-deploy-fix  # allow deploys from temp branch too
+      - temp-deploy-fix
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # Example step - adjust based on your actual build
-      - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # or 'build' if you're using a static site generator
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     steps:
-      - uses: actions/deploy-pages@v2
-
+      - uses: actions/deploy-pages@v4
