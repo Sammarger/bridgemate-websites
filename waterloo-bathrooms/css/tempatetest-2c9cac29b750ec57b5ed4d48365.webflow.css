@@ -5901,6 +5901,11 @@ strong {
   height: 100%;
 }
 
+.image-title {
+  height: 70px;  
+  max-width: none;
+}
+
 .heading-2, .heading-4, .div-block-5 {
   display: none;
 }
