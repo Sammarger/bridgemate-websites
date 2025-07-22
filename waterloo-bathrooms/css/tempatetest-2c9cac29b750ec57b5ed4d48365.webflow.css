@@ -191,7 +191,7 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--3x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding-mobile-l: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1-5x);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-padding-mobile-p: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--1-5x);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary: #c7d9c6;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-secondary: #c2b4c9;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-inverse-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse-hover);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary: #101010;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---size-grid-gap--s\<deleted\|variable-7f9b61b2-8719-91a0-b7be-ed0569c7f155\>: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---spacing--2x);
@@ -202,7 +202,7 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-radius: .5rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---tag--tag-size: .75rem;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---button--button-primary-bg: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-primary);
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse: #b8afda;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-inverse: #cfcae2;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-primary-hover: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-accent-on-primary-hover);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-link--link-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-primary-text: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-primary);
@@ -219,7 +219,7 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---nav-link--nav-link-inverse: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-inverse-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a20: #b8afda33;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a20: #c7d9c633;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a10: #c7d9c61a;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a10: #b4b4b41a;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---text-color--text-secondary: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--neutral-inverse-a60);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---card--card-primary-bg: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---background-color--bg-primary);
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a90: #b8afdae6;
@@ -227,12 +227,12 @@
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a70: #b8afdab3;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a60: #b8afda99;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-primary-a50: #b8afda80;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a90: #c7d9c6e6;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a80: #c7d9c6cc;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a70: #c7d9c6b3;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a60: #c7d9c699;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a50: #c7d9c680;
-  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a40: #c7d9c666;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a90: #d7d7d7e6;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a80: #cfcfcfcc;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a70: #b5b5b5b3;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a60: #bcbcbc99;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a50: #96969680;
+  --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a40: #a0a0a066;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-color-tint--accent-secondary-a30: #c7d9c64d;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-tertiary: transparent;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1750173751348---core-accent-color--accent-tertiary-hover: transparent;
