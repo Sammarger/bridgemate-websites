@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Upload</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- In <head> -->
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.css" />
+  <script src="https://www.gstatic.com/firebasejs/ui/6.1.0/firebase-ui-auth.js"></script>
+
+</head>
+<body style="padding: 2rem;">
+  <h1>Upload New Artwork</h1>
+  <form id="upload-form" class="upload-form" enctype="multipart/form-data">
+    <input type="file" id="image-input" name="image" accept="image/*" required><br><br>
+    <input type="text" id="image-title" placeholder="Work title" required><br><br>
+    <input type="text" id="image-desc" placeholder="Work description" required><br><br>
+    <button type="submit">Upload</button>
+  </form>
+  <p id="upload-status"></p>
+
+  <script>
+  document.getElementById('upload-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const fileInput = document.getElementById('image-input');
+    const descInput = document.getElementById('image-desc');
+    const file = fileInput.files[0];
+
+    if (!file) return alert('No file selected');
+
+    const reader = new FileReader();
+    reader.onload = function () {
+      const images = JSON.parse(localStorage.getItem('galleryImages') || '[]');
+      images.push({
+        src: reader.result,
+        description: descInput.value,
+        date: Date.now()
+      });
+      localStorage.setItem('galleryImages', JSON.stringify(images));
+      document.getElementById('upload-status').textContent = 'Uploaded successfully!';
+      fileInput.value = '';
+      descInput.value = '';
+    };
+    reader.readAsDataURL(file);
+  });
+  </script>
+
+  <!-- #####  FIREBASE SDKs  ##### -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyB08e9nCJ7FCd-JJKqfDRocqKFNKbAEdL0",
+      authDomain: "websites-paul-margerison.firebaseapp.com",
+      projectId: "websites-paul-margerison",
+      storageBucket: "websites-paul-margerison.firebasestorage.app",
+      messagingSenderId: "292565233917",
+      appId: "1:292565233917:web:e820140493df79292e8e94"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+
+    const auth = getAuth(app);
+    onAuthStateChanged(auth, user => {
+      if (!user) {
+        window.location.href = "login.html"; // block access
+      }
+    });
+
+  </script>
+</body>
+</html>

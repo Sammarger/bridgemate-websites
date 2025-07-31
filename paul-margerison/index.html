@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Artist Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",                 // from Firebase Console
+      authDomain: "websites-paul-margerison.firebaseapp.com",
+      projectId: "websites-paul-margerison",
+      // optionally: storageBucket, messagingSenderId, appId, etc.
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>PAUL MARGERISON</h1>
+      <nav>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact!</a></li>
+          <li><a href="admin.html" target="_blank">Admin</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="gallery-section">
+      <section id="portfolio" class="gallery">
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p1.jpg" alt="Artwork 2">
+          <div class="description">
+            <h3>COLLAGE PLATES WITH THREE CLAYS, LACE, BUBBLE WRAP, FOUND PHOTOGRAPHY AND ROMAN FUNEREAL ART.</h3>
+            <p>For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away.
+              Diameters 21 Cm, 29 Cm, 21 Cm</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p2.jpg" alt="Artwork 3">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p2.jpg.</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p3.jpg" alt="Artwork 4">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p3.jpg.</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p4.jpg" alt="Artwork 5">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p4.jpg.</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p5.jpg" alt="Artwork 6">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p5.jpg.</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p6.jpg" alt="Artwork 7">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p6.jpg.</p>
+          </div>
+        </div>
+        <div class="artwork" onclick="toggleDescription(this)">
+          <img src="images/p7.jpg" alt="Artwork 8">
+          <div class="description">
+            <h3>Artwork Title</h3>
+            <p>Description for p7.jpg.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+  const stored = JSON.parse(localStorage.getItem('galleryImages') || '[]');
+  const gallery = document.querySelector('.gallery');
+
+  stored.reverse().forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'artwork';
+    div.onclick = () => toggleDescription(div);
+    div.innerHTML = `
+      <img src="${item.src}" alt="User Upload">
+      <div class="description">
+        <h3>Uploaded Artwork</h3>
+        <p>${item.description}</p>
+      </div>`;
+    gallery.prepend(div);
+  });
+    </script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfigModule = {
+        apiKey: "AIzaSyB08e9nCJ7FCd-JJKqfDRocqKFNKbAEdL0",
+        authDomain: "websites-paul-margerison.firebaseapp.com",
+        projectId: "websites-paul-margerison",
+        storageBucket: "websites-paul-margerison.firebasestorage.app",
+        messagingSenderId: "292565233917",
+        appId: "1:292565233917:web:e820140493df79292e8e94"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfigModule);
+    </script> 
+
+</body>
+</html>
